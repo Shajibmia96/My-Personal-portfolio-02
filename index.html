@@ -6,38 +6,67 @@
     <title>My Personal portfolio</title>
     <link rel="stylesheet" href="styles/style.css" />
     <!-- icons-link -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- javascript-link -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   </head>
   <body>
     <header class="header">
       <a href="#" class="logo">Portfolio</a>
       <nav class="navbar">
         <ul>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Skill</a>
-          <a href="#">Portfolio</a>
-          <a href="#">Contact</a>
+          <a href="#" style="--i: 1" class="active">Home</a>
+          <a href="#" style="--i: 2">About</a>
+          <a href="#" style="--i: 3">Skill</a>
+          <a href="#" style="--i: 4">Portfolio</a>
+          <a href="#" style="--i: 5">Contact</a>
         </ul>
       </nav>
     </header>
-       <!-- new-section -->
-       <section class="home">
-        <div class="home-wrapper">
-            <h3>Hi,It's me</h3>
-            <h1>Md.Shajib Sarkar</h1>
-            <h3>And I'm a</h3>
-            <p>I'm a web developer with extensive experience for over 1 years <br>
-            expertise is to create a website, design, frontend design, web development and many more...</p>
-            <div class="home-scl">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-whatsapp' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <a href="#" class="btn-box">More About ME</a>
+    <!-- new-section -->
+    <section class="home">
+      <div class="home-wrapper">
+        <h3>Hi,It's me</h3>
+        <h1>Md.Shajib Sarkar</h1>
+        <h3>And I'm a <span class="text">MERN stack developer</span></h3>
+        <p>
+          I'm a web developer with extensive experience for over 1 years <br />
+          expertise is to create a website, design, frontend design, web
+          development and many more...
+        </p>
+        <div class="home-scl">
+          <a href="#" style="--i: 6"><i class="bx bxl-facebook"></i></a>
+          <a href="#" style="--i: 7"><i class="bx bxl-instagram"></i></a>
+          <a href="#" style="--i: 8"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#" style="--i: 9"><i class="bx bxl-twitter"></i></a>
         </div>
-         
-       </section>
+        <a href="#" style="--i: 10" class="btn-box">More About ME</a>
+      </div>
+    </section>
+
+    <main>
+      <section>
+        <div class="aboute" id="aboute">
+          <div class="aboute-img">
+            <img src="images/Screenshot__157_-removebg-preview.png" alt="" />
+          </div>
+          <div class="aboute-text">
+            <h2>About <span>Me</span></h2>
+            <h3>MERN stack developer</h3>
+            <p>And I'm a MERN stack developer
+              I'm a web developer with extensive experience for over 1 years
+              expertise is to create a website, design, frontend design, web development and many more.
+              You are not limited to just frontend or backend development; you are comfortable working on both ends of the application stack.I role involves tackling complex technical challenges and finding solutions to make web applications function smoothly. Precision is important in your work. You pay close attention to detail, whether it's in the user interface design, data modeling, or debugging code.</p>
+              <a href="#" style="--i: 10" class="btn-box">More About ME</a>
+             
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
