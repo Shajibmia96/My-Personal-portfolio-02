@@ -125,7 +125,7 @@ body{
     text-decoration: none;
     box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
     opacity: 0;
-    animation: slideLeft 1s ease forwards;
+    animation: slideTop 1s ease forwards;
     animation-delay: 2s;
     
 }
@@ -148,14 +148,18 @@ body{
 
 }
 .aboute-img img{
-    padding-bottom:20% ;
+   
     max-width: 650px;
     height: auto;
     width: 100%;
     border-radius: 8px;
+    opacity: 0;
+    animation: slideRight 2s ease forwards;
+    animation-delay: 2s;
+    
 }
 .aboute-text{
-    padding-bottom: 20%;
+   
 }
 .aboute-text h2{
     font-size: 60px;
@@ -176,6 +180,73 @@ body{
     line-height: 1.4;
     margin-bottom: 4rem;
 }
+.services{
+    color: aliceblue;
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    padding: 0 10% 0;
+
+}
+.services-Wrapper{
+   padding: 90px;
+}
+.sub-title{
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sub-title span{
+    color: #0ef;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px ,1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+    
+}
+.services-list div{
+    width: 259px;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s transform 0.5s;
+    box-shadow: 1px 1px 20px #012290f7,
+                1px 1px 40px #0053b8f7 ;
+}
+.services-list div:hover{
+    transform: translateY(-10px);
+}
+
+.services-list div i{
+    font-size:50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+.services-list div p{
+    font-size: 15px;
+    font-weight: 400;   
+}
+.services-list div a{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
 
 
 
